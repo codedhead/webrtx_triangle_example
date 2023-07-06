@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": ["@webgpu/types"],
+    "typeRoots": ["node_modules/@types", "node_modules/@webgpu/types"]
+  },
+  "include": ["src/**/*"]
+}
